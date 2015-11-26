@@ -35,4 +35,5 @@
       snmpd_cfg_rocommunity: ['oxalide']
       snmpd_cfg_syslocation: oxalide
       snmpd_cfg_syscontact: report@oxalide.com
+      snmpd_ic2_cfg_hostname: 54.77.156.140
       tags: snmpd
