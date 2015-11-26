@@ -1,9 +1,15 @@
 [MonitoringServers]
-54.76.108.142 
+52.30.201.208
 
 [servers]
-54.77.56.125
+52.30.222.6
 
-[MonitoringServers:vars]
+[all:vars]
 ansible_user=admin
 ansible_become=yes
+
+[servers:vars]
+snmpd_cfg_agentuser=root
+snmpd_cfg_rocommunity=['oxalide']
+snmpd_cfg_syslocation=oxalide
+snmpd_cfg_syscontact=report@oxalide.com
