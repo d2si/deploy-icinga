@@ -1,0 +1,9 @@
+[MonitoringServers]
+54.76.108.142 
+
+[servers]
+54.77.56.125
+
+[MonitoringServers:vars]
+ansible_user=admin
+ansible_become=yes
