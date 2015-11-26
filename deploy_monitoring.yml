@@ -21,4 +21,4 @@
 
 - hosts: servers
   roles:
-    - ansible-snmp
+    - role: ansible-snmp
