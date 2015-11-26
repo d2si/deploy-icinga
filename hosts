@@ -7,9 +7,3 @@
 [all:vars]
 ansible_user=admin
 ansible_become=yes
-
-[servers:vars]
-snmpd_cfg_agentuser=root
-snmpd_cfg_rocommunity=['oxalide']
-snmpd_cfg_syslocation=oxalide
-snmpd_cfg_syscontact=report@oxalide.com
