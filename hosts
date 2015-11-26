@@ -3,7 +3,7 @@
 54.72.228.64
 
 [servers]
-52.30.222.6
+52.30.196.22
 
 [all:vars]
 ansible_user=admin
