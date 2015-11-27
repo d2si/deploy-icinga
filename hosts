@@ -1,8 +1,8 @@
 [MonitoringServers]
-54.77.156.140
+54.77.173.206
 
-[servers]
-52.30.222.6
+[MonitoringAgents]
+52.18.79.56
 
 [all:vars]
 ansible_user=admin
