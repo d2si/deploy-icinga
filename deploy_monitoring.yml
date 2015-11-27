@@ -28,12 +28,12 @@
        }
      tags: icinga2-ansible-web2-ui
 
-- hosts: servers
+- hosts: MonitoringAgents
   roles:
     - role: ansible-snmp
       snmpd_cfg_agentuser: root
       snmpd_cfg_rocommunity: oxalide
       snmpd_cfg_syslocation: oxalide
       snmpd_cfg_syscontact: report@oxalide.com
-      snmpd_ic2_cfg_hostname: 54.77.156.140
+      snmpd_ic2_cfg_hostname: 54.77.173.206
       tags: snmpd
